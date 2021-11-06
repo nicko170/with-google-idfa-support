@@ -1,0 +1,43 @@
+{
+  "private": false,
+  "name": "with-google-idfa-support",
+  "main": "app.plugin.js",
+  "version": "0.0.1",
+  "description": "An Expo config plugin to add GoogleIDFASupport Pod into Podfile on Expo EAS",
+  "repository": "https://github.com/nicko170/with-google-idfa-support",
+  "author": "Nick Pratley <nick@npratley.net> (https://github.com/nicko170)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicko170/with-google-idfa-support/issues"
+  },
+  "homepage": "https://github.com/nicko170/with-google-idfa-support#readme",
+  "keywords": [
+    "react-native",
+    "expo",
+    "config-plugins",
+    "GoogleIDFASupport"
+  ],
+  "files": [
+    "app.plugin.js",
+    "plugin/build/*"
+  ],
+  "scripts": {
+    "build": "expo-module build plugin",
+    "clean": "expo-module clean plugin",
+    "test": "expo-module test plugin",
+    "lint": "expo-module lint plugin",
+    "rebuild": "yarn clean && EXPO_NONINTERACTIVE=1 yarn build",
+    "prepublishOnly": "expo-module prepublishOnly"
+  },
+  "dependencies": {
+    "@expo/config-plugins": "^3.0.7",
+    "glob": "^7.1.7"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.1.4",
+    "babel-jest": "^27.3.1",
+    "expo-module-scripts": "^2.0.0",
+    "jest": "^27.3.1",
+    "ts-jest": "^27.0.7"
+  }
+}
