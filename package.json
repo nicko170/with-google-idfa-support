@@ -2,7 +2,7 @@
   "private": false,
   "name": "with-google-idfa-support",
   "main": "app.plugin.js",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "An Expo config plugin to add GoogleIDFASupport Pod into Podfile on Expo EAS",
   "repository": "https://github.com/nicko170/with-google-idfa-support",
   "author": "Nick Pratley <nick@npratley.net> (https://github.com/nicko170)",
